@@ -422,3 +422,22 @@ a {
 .home-brand-subtext {
   padding-left: 40px;
 }
+.text-footer-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #33383a;
+}
+.footer-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #ffffff;
+  background: #1c1e1f;
+  box-shadow: 2px 6px 15px -2px rgba(29, 32, 34, 0.05);
+  padding: 18px 30px;
+  border: none;
+}
+.footer-gray {
+  background: #fbfbfb;
+}
