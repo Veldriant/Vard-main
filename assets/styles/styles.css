@@ -116,13 +116,13 @@ a {
   letter-spacing: -0.02em;
   color: #1c1e1f;
 }
-.main-grid-1-link {
+.text-gray {
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
   color: #808588;
 }
-.main-grid-1-link:hover {
+.text-gray:hover {
   color: #808588;
 }
 .main-grid-1-link img {
@@ -201,17 +201,205 @@ a {
 .main-grid-title-long {
   max-width: 250px;
 }
-.titile-popular {
+.titile-black {
   font-weight: 500;
   font-size: 25px;
   line-height: 120%;
   color: #1c1e1f;
-  padding-bottom: 40px;
 }
-.next-popular,
-.prev-popular {
+.next-cardMiniatur,
+.prev-cardMiniatur {
   position: relative;
 }
-.navigation-popular {
+.swiperHome-cardMiniatur {
+  padding-bottom: 120px;
+}
+.navigation-cardMiniatur {
   width: 100px;
+}
+.cardMiniatur-card {
+  width: 500px !important;
+  border: 1px solid #fbfbfb;
+  box-shadow: 2px 6px 15px -2px rgba(29, 32, 34, 0.05);
+  padding-bottom: 20px;
+}
+.cardMiniatur-card-header {
+  height: 500px;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardMiniatur-card-header-teg {
+  padding: 5px 10px;
+  top: 20px;
+  left: 50px;
+  width: 80px;
+  background: black;
+  color: #ffffff;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 135%;
+}
+.cardMiniatur-card-content {
+  padding-bottom: 40px;
+}
+.cardMiniatur-card-conent-model {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #1c1e1f;
+}
+.cardMiniatur-card-conent-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 135%;
+  color: #808588;
+}
+.cardMiniatur-card-price {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+  color: #c49a6c;
+}
+.cardMiniatur-card-button {
+  color: #ffffff;
+  background-color: #1c1e1f;
+  box-shadow: 2px 6px 15px -2px rgba(29, 32, 34, 0.05);
+  height: 60px;
+}
+.cardMiniatur-card-button:nth-child(1) {
+  width: 80%;
+}
+.cardMiniatur-card-button:nth-child(2) {
+  width: 15%;
+}
+.cardMiniatur-card-header-1 {
+  background-image: url(../images/popular1.png);
+}
+.cardMiniatur-card-header-2 {
+  background-image: url(../images/popular2.png);
+}
+.cardMiniatur-card-header-3 {
+  background-image: url(../images/popular3.png);
+}
+.swiper-navigation {
+  top: -250px;
+}
+.homeNew {
+  padding-bottom: 120px;
+}
+.prev-homeNew {
+  left: -50px;
+}
+.next-homeNew {
+  right: -50px;
+}
+.homeNew-wrapper {
+  padding-bottom: 20px;
+}
+.homeNew-slide {
+  height: 500px;
+  background-size: auto;
+  background-size: cover;
+  background-position: bottom;
+}
+.homeNew-slide-1 {
+  background-image: url(../images/new1.png);
+}
+.homeNew-slide-2 {
+  background-image: url(../images/new2.png);
+}
+.homeNew-info {
+  position: relative;
+  top: 75%;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.homeNew-info-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  max-width: 250px;
+}
+.home-mailinglist {
+  background-image: url(../images/home-mailinglist.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.home-mailinglist-wrapper {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.home-mailinglist-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+}
+.home-mailinglist-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #d9dee0;
+  padding-bottom: 30px;
+}
+.home-mailinglist-input {
+  width: 50%;
+  background: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  padding: 10px;
+  color: #ffffff;
+  border: 1px solid #33383a;
+}
+.home-mailinglist-button {
+  background: #ffffff;
+  align-items: center;
+  padding: 10px 80px;
+  border: none;
+  margin-left: 20px;
+}
+.home-help {
+  background-image: url(../images/help.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+  padding-left: 80px;
+  padding-bottom: 180px;
+}
+.home-help-wrapper {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.home-help-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.home-help-subtitle {
+  max-width: 250px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #d9dee0;
+}
+.home-help-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #1c1e1f;
+  align-items: center;
+  padding: 18px 30px;
+  border: none;
 }
