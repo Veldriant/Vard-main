@@ -50,8 +50,8 @@
                 </div>
             </li>
         </ul>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next swiper-button-home-main"></div>
+        <div class="swiper-button-prev swiper-button-home-main"></div>
         <div class="swiper-pagination"></div>
     </section>
     <section class="container">
@@ -94,8 +94,6 @@
                 <a href="#" class="main-grid-link d-flex">Перейти<img src="./assets/images/whiteArrow.svg"
                         whiteArrow></a>
             </li>
-        </ul>
-        <ul class="main-grid-bottom">
             <li class="main-grid-bottom-1">
                 <p class="main-grid-title">
                     Духовые шкафы
@@ -138,17 +136,16 @@
                 <a href="#" class="main-grid-link d-flex">Перейти<img src="./assets/images/whiteArrow.svg"
                         whiteArrow></a>
             </li>
-        </ul>
     </section>
-    <div class="swiper swiperHome-cardMiniatur">
-        <div class="container d-flex justify-content-between pb-5">
+    <div class="swiper swiperHome-cardMiniatur bottomPadding container">
+        <div class="d-flex justify-content-between pb-5">
             <p class="titile-black">Популярные товары</p>
             <div class="d-flex flex-row-reverse navigation-cardMiniatur justify-content-between">
                 <div class="swiper-button-next next-cardMiniatur"></div>
                 <div class="swiper-button-prev prev-cardMiniatur"></div>
             </div>
         </div>
-        <ul class="swiper-wrapper container">
+        <ul class="swiper-wrapper">
             <li class="swiper-slide cardMiniatur-card">
                 <div class="cardMiniatur-card-header cardMiniatur-card-header-1">
                     <div class="cardMiniatur-card-header-teg d-flex position-relative">
@@ -240,13 +237,19 @@
         </ul>
     </div>
     <section class="container">
-        <div class="d-flex align-items-center">
-            <p class="titile-black">Новости и советы</p>
-            <p class="text-gray px-5">Смотреть все <img class="px-2" src="./assets/images/greayArrow.svg"
-                    alt="greayArrow">
-            </p>
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex">
+                <p class="titile-black">Новости и советы</p>
+                <p class="text-gray d-lg-flex align-items-center px-5 d-none">Смотреть все <img class="px-2"
+                        src="./assets/images/greayArrow.svg" alt="greayArrow">
+                </p>
+            </div>
+            <div class="swiper-navigation position-relative d-lg-none d-flex">
+                <div class="swiper-button-next next-homeNew"></div>
+                <div class="swiper-button-prev prev-homeNew"></div>
+            </div>
         </div>
-        <div class="swiper homeNew d-flex">
+        <div class="swiper homeNew bottomPadding d-flex">
             <div class="swiper-wrapper">
                 <div class="swiper-slide homeNew-wrapper">
                     <div class="homeNew-slide homeNew-slide-1">
@@ -272,7 +275,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-navigation position-relative">
+        <div class="swiper-navigation position-relative d-lg-flex d-none">
             <div class="swiper-button-next next-homeNew"></div>
             <div class="swiper-button-prev prev-homeNew"></div>
         </div>
@@ -284,7 +287,7 @@
                     <p class="home-mailinglist-title">Подпишитесь на рассылку</p>
                     <p class="home-mailinglist-subtitle">И получайте самые интересные новости и спецпредложения</p>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex flex-lg-row flex-column">
                     <input class="home-mailinglist-input" type="text" placeholder="Введите email">
                     <button class="home-mailinglist-button">Подписаться</button>
                 </div>
@@ -299,23 +302,23 @@
             <button class="home-help-button">Выбрать мессенджер</button>
         </div>
     </section>
-    <section class="container d-flex flex-column home-brand-wrapper">
+    <section class="container d-flex flex-column home-brand-wrapper bottomPadding">
         <p class="titile-black pb-3">Преимущества бренда</p>
-        <div class="d-flex">
-            <div class="col-4 home-brand d-flex align-items-center">
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="col-lg-4 col-12 home-brand d-flex align-items-center">
                 <div class="d-flex">
                     <img src="./assets/images/home-brand1.svg" alt="home-brand1">
                     <span class="home-brand-text d-flex align-items-center">Бесплатная доставка до двери</span>
                 </div>
             </div>
-            <div class="col-4 home-brand d-flex flex-column justify-content-center">
+            <div class="col-lg-4 col-12  home-brand d-flex flex-column justify-content-center">
                 <div class="d-flex pt-4">
                     <img src="./assets/images/home-brand2.svg" alt="home-brand2">
                     <span class="home-brand-text d-flex align-items-center ">3 года гарантии</span>
                 </div>
                 <p class="text-gray home-brand-subtext">на крупную бытовую технику</p>
             </div>
-            <div class="col-4 home-brand d-flex align-items-center">
+            <div class="col-lg-4 col-12  home-brand d-flex align-items-center">
                 <div class="d-flex">
                     <img src="./assets/images/home-brand3.svg" alt="home-brand3">
                     <span class="home-brand-text d-flex align-items-center">Европейское качество сборки</span>
@@ -324,26 +327,26 @@
         </div>
     </section>
     <footer>
-        <div class="container d-flex justify-content-between">
+        <div class="container d-flex justify-content-between flex-lg-row flex-column">
             <logo>
                 <img src="./assets/images/logo-footer.svg" alt="logo-footer">
             </logo>
-            <div class="d-flex">
-                <ul class="d-flex flex-column px-5">
+            <div class="d-flex flex-lg-row flex-column pt-lg-0 pt-3">
+                <ul class="d-flex flex-column px-lg-5 px-0 pt-lg-0 pt-3">
                     <p class="text-gray">Каталог</p>
                     <li class="text-footer-list">Название категории</li>
                     <li class="text-footer-list">Название категории</li>
                     <li class="text-footer-list">Название категории</li>
                     <li class="text-footer-list">Название категории</li>
                 </ul>
-                <ul class="d-flex flex-column px-5">
+                <ul class="d-flex flex-column px-lg-5 px-0 pt-lg-0 pt-3">
                     <p class="text-gray">О компании</p>
                     <li class="text-footer-list">Название категории</li>
                     <li class="text-footer-list">Название категории</li>
                     <li class="text-footer-list">Название категории</li>
                     <li class="text-footer-list">Название категории</li>
                 </ul>
-                <ul class="d-flex flex-column px-5">
+                <ul class="d-flex flex-column px-lg-5 px-0 pt-lg-0 pt-3">
                     <p class="text-gray">Помощь покупателям</p>
                     <li class="text-footer-list">Название категории</li>
                     <li class="text-footer-list">Название категории</li>
@@ -351,11 +354,11 @@
                     <li class="text-footer-list">Название категории</li>
                 </ul>
             </div>
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column pt-lg-0 pt-3">
                 <p class="text-gray">Контактные данные</p>
                 <p class="text-footer-list">8 (800) 700 - 29 - 85</p>
                 <button class="footer-button">Связаться с нами</button>
-                <div class="d-flex pt-3 w-50 justify-content-between">
+                <div class="d-flex pt-3 footer-icon justify-content-between">
                     <a href=""><img src="./assets/images/YouTube-fill.svg" alt="YouTube-fill"></a>
                     <a href=""><img src="./assets/images/vk-fill.svg" alt="vk-fill"></a>
                     <a href=""><img src="./assets/images/Telegram-fill.svg" alt="Telegram-fill"></a>
@@ -365,23 +368,23 @@
         <div class="footer-gray mt-5">
             <div class="container">
                 <ul class="d-flex justify-content-center py-4 m-0">
-                    <li class="px-3"><img src="./assets/images/foter-gray1.svg" alt="foter-gray1"></li>
-                    <li class="px-3"><img src="./assets/images/foter-gray2.svg" alt="foter-gray1"></li>
-                    <li class="px-3"><img src="./assets/images/foter-gray3.svg" alt="foter-gray1"></li>
-                    <li class="px-3"><img src="./assets/images/foter-gray4.svg" alt="foter-gray1"></li>
-                    <li class="px-3"><img src="./assets/images/foter-gray5.svg" alt="foter-gray1"></li>
+                    <li class="px-lg-3 px-2"><img src="./assets/images/foter-gray1.svg" alt="foter-gray1"></li>
+                    <li class="px-lg-3 px-2"><img src="./assets/images/foter-gray2.svg" alt="foter-gray1"></li>
+                    <li class="px-lg-3 px-2"><img src="./assets/images/foter-gray3.svg" alt="foter-gray1"></li>
+                    <li class="px-lg-3 px-2"><img src="./assets/images/foter-gray4.svg" alt="foter-gray1"></li>
+                    <li class="px-lg-3 px-2"><img src="./assets/images/foter-gray5.svg" alt="foter-gray1"></li>
                 </ul>
-                <ul class="d-flex justify-content-center py-4 m-0">
-                    <a href="#" class="px-3 text-gray">
+                <ul class="d-flex flex-lg-row flex-column-reverse align-items-center justify-content-center py-4 m-0">
+                    <a href="#" class="px-3 text-gray py-2 site-name-footer">
                         <li>©VÄRD, 2022</li>
                     </a>
-                    <a href="#" class="px-3 text-gray">
+                    <a href="#" class="px-3 text-gray py-2">
                         <li>Пользовательское соглашение</li>
                     </a>
-                    <a href="#" class="px-3 text-gray">
+                    <a href="#" class="px-3 text-gray py-2">
                         <li>Политика о конфиденциальности</li>
                     </a>
-                    <a href="#" class="px-3 text-gray">
+                    <a href="#" class="px-3 text-gray py-2 ">
                         <li>Карта сайта</li>
                     </a>
                 </ul>

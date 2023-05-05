@@ -10,7 +10,12 @@ var swiper = new Swiper(".swiperHome-main", {
   },
 });
 var swiper = new Swiper(".swiperHome-cardMiniatur", {
-  slidesPerView: 3,
+  slidesPerView: 1,
+  breakpoints: {
+            990: {
+                slidesPerView: 3,
+            },
+    },
   spaceBetween: 30,
   navigation: {
     nextEl: ".swiper-button-next",
@@ -19,10 +24,16 @@ var swiper = new Swiper(".swiperHome-cardMiniatur", {
   spaceBetween: 30,
 });
 var swiper = new Swiper(".homeNew", {
-  slidesPerView: 2,
+  slidesPerView: 1,
+  breakpoints: {
+            990: {
+                slidesPerView: 2,
+            },
+    },
   spaceBetween: 30,
   navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
   },
+  
     });
