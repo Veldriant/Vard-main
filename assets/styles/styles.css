@@ -221,7 +221,7 @@ a {
 .cardMiniatur-card-header-teg {
   padding: 5px 10px;
   top: 20px;
-  left: 50px;
+  left: 20px;
   width: 80px;
   background: black;
   color: #ffffff;
@@ -493,6 +493,9 @@ a {
   }
   .prev-homeNew {
     left: -80px;
+  }
+  .cardMiniatur-card-header-teg {
+    left: 20px;
   }
   .home-help {
     background-position: right;
