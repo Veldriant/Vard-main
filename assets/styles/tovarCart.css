@@ -1,0 +1,38 @@
+.tovar-cart-info-top {
+  padding-top: 60px;
+}
+.tovar-cart-black-title {
+  max-width: 400px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+  color: #1c1e1f;
+}
+.tovar-cart-black-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #33383a;
+}
+.tovarLineGray {
+  padding-right: 5px;
+}
+.tovar-cart-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #c49a6c;
+}
+.buttonBlack {
+  border: none;
+  background: #1c1e1f;
+  box-shadow: 2px 6px 15px -2px rgba(29, 32, 34, 0.05);
+  align-items: center;
+  padding: 14px 30px;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}

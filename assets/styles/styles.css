@@ -314,30 +314,30 @@ a {
   color: #ffffff;
   max-width: 250px;
 }
-.home-mailinglist {
+.mailinglist {
   background-image: url(../images/home-mailinglist.png);
   background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
 }
-.home-mailinglist-wrapper {
+.mailinglist-wrapper {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.home-mailinglist-title {
+.mailinglist-title {
   font-weight: 600;
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.02em;
 }
-.home-mailinglist-subtitle {
+.mailinglist-subtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
   color: #d9dee0;
   padding-bottom: 30px;
 }
-.home-mailinglist-input {
+.mailinglist-input {
   width: 50%;
   background: inherit;
   font-weight: 400;
@@ -347,7 +347,7 @@ a {
   color: #ffffff;
   border: 1px solid #33383a;
 }
-.home-mailinglist-button {
+.mailinglist-button {
   background: #ffffff;
   align-items: center;
   padding: 10px 80px;
@@ -517,10 +517,10 @@ a {
   .swiper-navigation {
     top: -10px;
   }
-  .home-mailinglist-input {
+  .mailinglist-input {
     width: 100%;
   }
-  .home-mailinglist-button {
+  .mailinglist-button {
     margin-top: 10px;
     margin-left: 0px;
     width: 100%;

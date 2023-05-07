@@ -37,3 +37,14 @@ var swiper = new Swiper(".homeNew", {
   },
   
     });
+  var swiper = new Swiper(".topTovarCart", {
+      slidesPerView: 1,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });

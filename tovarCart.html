@@ -11,13 +11,58 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link href="https://fonts.cdnfonts.com/css/manrope" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/tovarCart.css">
 </head>
 
 <body>
     <section class="container">
-        <ul class="breadcrumbs d-flex">
+        <ul class="breadcrumbs d-flex py-4">
             <li>Главная</li>
         </ul>
+        <div class="d-flex flex-lg-row flex-column-reverse">
+            <ul class="col-lg-6 col-12 tovar-cart-info-top">
+                <li class="tovar-cart-black-title">
+                    <p>Стирально-сушильная машина VARD VWD514</p>
+                </li>
+                <li class="py-3">
+                    <p class="tovar-cart-black-text">
+                        Стирально-сушильная машина с эксклюзивной отделкой из эко-кожи объединяет в себе премиальный
+                        дизайн и технологии
+                        для заботы о ваших вещах и вашем интерьере.
+                    </p>
+                </li>
+                <li class="d-flex py-3">
+                    <p class="text-gray"><img class="tovarLineGray" src="./assets/images/tovarLineGray.svg"
+                            alt="tovarLineGray">В наличии
+                    </p>
+                    <p class="text-gray px-3"><img class="tovarLineGray" src="./assets/images/tovarLineGray.svg"
+                            alt="tovarLineGray">Гарантия 3 года
+                    </p>
+                </li>
+                <li class="py-3">
+                    <span class="text-gray">От</span><span class="tovar-cart-price px-3">99 990 ₽</span>
+                </li>
+                <li class="py-3">
+                    <button class="buttonBlack">Купить в один клик</button>
+                    <button class="buttonBlack">Добавить в корзину <img src="./assets/images/cartMiniature.svg"
+                            alt="cartMiniature"></button>
+                </li>
+            </ul>
+            <div class="col-lg-6 col-12 ">
+                <div class="swiper topTovarCart ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img width="100%" src="./assets/images/popular1.png" alt="popular1">
+                        </div>
+                        <div class="swiper-slide"><img width="100%" src="./assets/images/popular1.png" alt="popular1">
+                        </div>
+                    </div>
+                    <div class="d-lg-none d-flex">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -25,7 +70,21 @@
 
 
     <footer>
-        <div class="container d-flex justify-content-between flex-lg-row flex-column">
+        <div class="mailinglist">
+            <section class="container mailinglist-wrapper">
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-column">
+                        <p class="mailinglist-title">Подпишитесь на рассылку</p>
+                        <p class="mailinglist-subtitle">И получайте самые интересные новости и спецпредложения</p>
+                    </div>
+                    <div class="d-flex flex-lg-row flex-column">
+                        <input class="mailinglist-input" type="text" placeholder="Введите email">
+                        <button class="mailinglist-button">Подписаться</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container d-flex justify-content-between flex-lg-row flex-column pt-5">
             <logo>
                 <img src="./assets/images/logo-footer.svg" alt="logo-footer">
             </logo>
