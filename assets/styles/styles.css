@@ -441,11 +441,11 @@ a {
   }
   .main-grid-top {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 160px);
     padding-top: 0px;
   }
   .main-grid-top-1 {
-    padding-top: 120px !important;
+    padding-top: 60px !important;
     grid-area: 1 / 1 / 2 / 3;
   }
   .main-grid-top-2 {
@@ -463,8 +463,18 @@ a {
   .main-grid-top-6 {
     display: none;
   }
+  .main-grid-title {
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.02em;
+  }
   .main-grid-top-1-title {
-    max-width: 90%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 300px;
   }
   .main-grid-bottom-1 {
     grid-area: 3 / 1 / 4 / 2;
