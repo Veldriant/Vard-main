@@ -25,6 +25,36 @@
   letter-spacing: -0.02em;
   color: #c49a6c;
 }
+.tovar-cart-gray-wrapper {
+  background: #fbfbfb;
+  border-top: 1px solid #d9dee0;
+  border-bottom: 1px solid #d9dee0;
+}
+
+.tovar-cart-gray-wrapper-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #000000;
+}
+.tovar-cart-gray-wrapper-link a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #33383a;
+  align-items: center;
+  display: flex;
+}
+.tovar-cart-gray-wrapper-link li {
+  padding-right: 25px;
+}
+.tovar-cart-gray-wrapper-link-button {
+  border: none;
+  padding: 10px 30px;
+  background: #1c1e1f;
+  color: #ffffff;
+  box-shadow: 2px 6px 15px -2px rgba(29, 32, 34, 0.05);
+}
 .buttonBlack {
   border: none;
   background: #1c1e1f;
