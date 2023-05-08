@@ -10,6 +10,15 @@ li {
 a {
   text-decoration: none;
 }
+button {
+  transition: 0.3s;
+}
+.button-white-hover:hover {
+  box-shadow: rgb(255 255 255 / 38%) 0px 7px 29px 0px;
+}
+.button-black-hover:hover {
+  box-shadow: rgb(12 12 12 / 40%) 0px 7px 29px 0px;
+}
 .home-main-slider {
   height: 100vh;
   background-image: url(../images/HomeOneSlider1.jpg);
@@ -36,12 +45,15 @@ a {
   max-width: 450px;
 }
 .home-main-slide-button {
+  font-family: "Manrope";
   padding: 18px 30px;
   border: none;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
   color: #1c1e1f;
+  background: #ffffff;
   width: 50%;
 }
 .swiper-pagination {
@@ -164,8 +176,20 @@ a {
 .text-gray:hover {
   color: #808588;
 }
+.text-gray-hover {
+  transition: 0.3s;
+}
+.text-gray-hover:hover {
+  color: #646668;
+}
 .main-grid-1-link img {
   padding-left: 10px;
+}
+.main-grid-1-link {
+  transition: 0.3s;
+}
+.main-grid-1-link:hover {
+  color: #1c1e1f;
 }
 .main-grid-title {
   max-width: 140px;
@@ -181,9 +205,10 @@ a {
   font-size: 12px;
   line-height: 135%;
   color: #ffffff;
+  transition: 0.3s;
 }
 .main-grid-link:hover {
-  color: #ffffff;
+  color: #c7c6c6;
 }
 .main-grid-link img {
   padding-left: 10px;
@@ -381,13 +406,15 @@ a {
   color: #d9dee0;
 }
 .home-help-button {
+  font-family: "Manrope";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
   color: #1c1e1f;
-  align-items: center;
   padding: 18px 30px;
   border: none;
+  background: #ffffff;
 }
 .home-brand {
   border: 1px solid #d9dee0;
@@ -427,6 +454,12 @@ a {
 }
 .footer-icon {
   width: 50%;
+}
+.footer-icon img {
+  transition: 0.3s;
+}
+.footer-icon img:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 990px) {
   .bottomPadding {
