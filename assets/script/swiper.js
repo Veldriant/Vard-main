@@ -48,3 +48,17 @@ var swiper = new Swiper(".homeNew", {
         prevEl: ".swiper-button-prev",
       },
     });
+  var swiper = new Swiper(".swiper-cardMiniatur", {
+  slidesPerView: 1,
+  breakpoints: {
+            990: {
+                slidesPerView: 4,
+            },
+    },
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  spaceBetween: 30,
+});

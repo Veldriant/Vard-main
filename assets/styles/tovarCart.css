@@ -36,3 +36,44 @@
   font-size: 16px;
   line-height: 135%;
 }
+.instructions-for-use {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.instructions-for-use {
+  background-image: url(../images/Instructions-for-use.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.instructions-for-use-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.instructions-for-use-text {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.instructions-for-use-button {
+  padding: 18px 30px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #1c1e1f;
+  background: #ffffff;
+  width: 250px;
+}
+.cardMiniatur-card-mini {
+  height: 320px;
+  background-size: contain;
+}
+@media (max-width: 990px) {
+  .cardMiniatur-card-mini {
+    height: 500px;
+    background-size: auto;
+  }
+}

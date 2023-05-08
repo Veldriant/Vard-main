@@ -1,6 +1,12 @@
 body {
   font-family: "Manrope";
 }
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
 ul {
   padding: 0px;
 }
@@ -287,10 +293,10 @@ button {
   height: 60px;
 }
 .cardMiniatur-card-button:nth-child(1) {
-  width: 80%;
+  width: 75%;
 }
 .cardMiniatur-card-button:nth-child(2) {
-  width: 15%;
+  width: 20%;
 }
 .cardMiniatur-card-header-1 {
   background-image: url(../images/popular1.png);
