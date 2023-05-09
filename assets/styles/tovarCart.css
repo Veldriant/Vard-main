@@ -106,10 +106,12 @@
   background-image: url(../images/cartbg-1.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .cart-bg-and-text-content-2 {
   background-image: url(../images/cartbg-2.png);
   background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
   border-top: 1px solid #d9dee040;
   border-bottom: 1px solid #d9dee040;
