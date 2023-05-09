@@ -44,6 +44,11 @@
   align-items: center;
   display: flex;
 }
+.tovar-cart-gray-wrapper-link a:active,
+:hover,
+:focus {
+  color: #808588;
+}
 .tovar-cart-gray-wrapper-link li {
   padding-right: 25px;
 }
