@@ -232,6 +232,9 @@ button {
 .prev-cardMiniatur {
   position: relative;
 }
+.topPadding {
+  padding-top: 120px;
+}
 .bottomPadding {
   padding-bottom: 120px;
 }
@@ -470,6 +473,9 @@ button {
 @media (max-width: 990px) {
   .bottomPadding {
     padding-bottom: 60px;
+  }
+  .topPadding {
+    padding-top: 60px;
   }
   .home-help-wrapper {
     padding-top: 60px;
