@@ -53,8 +53,8 @@
             </div>
         </div>
     </section>
-    <section class="tovar-cart-gray-wrapper d-lg-flex d-none">
-        <div class="d-flex container justify-content-between align-items-center py-1">
+    <section class="tovar-cart-gray-wrapper">
+        <div class="d-flex container justify-content-between align-items-center py-1 d-lg-flex d-none">
             <span class="tovar-cart-gray-wrapper-title">VARD DP1004</span>
             <ul class="d-flex tovar-cart-gray-wrapper-link m-0">
                 <a href="#Обзор">
@@ -74,9 +74,34 @@
                 </a>
             </ul>
         </div>
+        <div class="d-lg-none d-flex container">
+            <div class="swiper swiper-NavigationCart ">
+                <ul class=" swiper-wrapper d-flex tovar-cart-gray-wrapper-link border-0 m-0">
+                    <a class="swiper-slide justify-content-center" href="#Обзор">
+                        <li>Обзор</li>
+                    </a>
+                    <a class="swiper-slide justify-content-center" href="#Характеристики">
+                        <li>Характеристики</li>
+                    </a>
+                    <a class="swiper-slide justify-content-center" href="#Инструкция">
+                        <li>Инструкция</li>
+                    </a>
+                    <a class="swiper-slide justify-content-center" href="#Отзывы">
+                        <li>Отзывы</li>
+                    </a>
+
+                </ul>
+                <div class="swiper-button-next NavigationCart-next"></div>
+                <div class="swiper-button-prev NavigationCart-prev"></div>
+            </div>
+            <a href="#">
+                <li><button class="tovar-cart-gray-wrapper-link-button">Купить</button></li>
+            </a>
+        </div>
+
     </section>
-    <section class="tovar-cart-gray-wrapper-two d-lg-flex d-none">
-        <div class="tovar-cart-gray-two-grid container">
+    <section class="tovar-cart-gray-wrapper-two" id="Обзор">
+        <div class="tovar-cart-gray-two-grid container d-lg-grid d-none">
             <div class="tovar-cart-gray-two-grid-1"><img width="100%" src="./assets/images/cartGrid-1.png"
                     alt="cartGrid-1"></div>
             <div class="tovar-cart-gray-two-grid-2"><img width="100%" src="./assets/images/cartGrid-2.png"
@@ -88,8 +113,34 @@
             <div class="tovar-cart-gray-two-grid-5"><img width="100%" src="./assets/images/cartGrid-5.png"
                     alt="cartGrid-5"></div>
         </div>
+        <div class="swiper swiper-cardMiniatur container d-block d-lg-none">
+            <div class="container d-flex justify-content-between">
+                <p class="titile-black">Обзор</p>
+                <div class="d-flex flex-row-reverse navigation-cardMiniatur justify-content-between">
+                    <div class="swiper-button-next next-cardMiniatur"></div>
+                    <div class="swiper-button-prev prev-cardMiniatur"></div>
+                </div>
+            </div>
+            <ul class="swiper-wrapper  topPadding">
+                <li class="swiper-slide cardMiniatur-card">
+                    <img width="100%" src="./assets/images/cartGrid-1.png" alt="cartGrid-1">
+                </li>
+                <li class="swiper-slide cardMiniatur-card">
+                    <img width="100%" src="./assets/images/cartGrid-2.png" alt="cartGrid-1">
+                </li>
+                <li class="swiper-slide cardMiniatur-card">
+                    <img width="100%" src="./assets/images/cartGrid-3.png" alt="cartGrid-1">
+                </li>
+                <li class="swiper-slide cardMiniatur-card">
+                    <img width="100%" src="./assets/images/cartGrid-4.png" alt="cartGrid-1">
+                </li>
+                <li class="swiper-slide cardMiniatur-card">
+                    <img width="100%" src="./assets/images/cartGrid-5.png" alt="cartGrid-1">
+                </li>
+            </ul>
+        </div>
     </section>
-    <section class="cart-bg-and-text" id="Обзор">
+    <section class="cart-bg-and-text">
         <ul class="cart-bg-and-text-content">
             <li class="cart-bg-and-text-content-1 ">
                 <div class="container bottomPadding topPadding">

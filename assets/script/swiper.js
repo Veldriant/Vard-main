@@ -63,3 +63,11 @@ var swiper = new Swiper(".homeNew", {
   },
   spaceBetween: 30,
 });
+  var swiper = new Swiper(".swiper-NavigationCart", {
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  spaceBetween: 30,
+});

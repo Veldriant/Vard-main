@@ -29,6 +29,9 @@
   background: #fbfbfb;
   border-top: 1px solid #d9dee0;
   border-bottom: 1px solid #d9dee0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 .tovar-cart-gray-wrapper-title {
   font-weight: 400;
@@ -258,6 +261,26 @@
   height: 330px;
 }
 @media (max-width: 990px) {
+  .tovar-cart-gray-wrapper-two {
+    padding-top: 60px;
+  }
+  .tovar-cart-gray-wrapper-link li {
+    padding: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 135%;
+  }
+  .swiper-wrapper.topPadding {
+    height: 300px;
+  }
+  .swiper-slide.cardMiniatur-card {
+    box-shadow: none;
+  }
+  .swiper-slide.cardMiniatur-card img {
+    height: 100%;
+    object-fit: cover;
+  }
+
   .cardMiniatur-card-mini {
     height: 500px;
     background-size: auto;
