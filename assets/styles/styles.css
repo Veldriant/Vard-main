@@ -140,6 +140,7 @@ button {
 .main-grid-top li {
   padding: 20px;
 }
+
 .main-grid-top-1 {
   grid-area: 1 / 1 / 2 / 3;
   display: flex;
