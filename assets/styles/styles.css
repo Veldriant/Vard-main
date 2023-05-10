@@ -505,6 +505,9 @@ button {
 .footer-icon img:hover {
   transform: scale(1.1);
 }
+.main-grid-top-1 {
+  padding: 0px;
+}
 @media (max-width: 990px) {
   .home-main-slider {
     padding-right: 10px;
