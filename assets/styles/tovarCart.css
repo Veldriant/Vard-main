@@ -45,8 +45,8 @@
   display: flex;
 }
 .tovar-cart-gray-wrapper-link a:active,
-:hover,
-:focus {
+.tovar-cart-gray-wrapper-link a:hover,
+.tovar-cart-gray-wrapper-link a:focus {
   color: #808588;
 }
 .tovar-cart-gray-wrapper-link li {
@@ -116,15 +116,13 @@
 .cart-bg-and-text-content-2 {
   background-image: url(../images/cartbg-2.png);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
-  border-top: 1px solid #d9dee040;
-  border-bottom: 1px solid #d9dee040;
 }
 .cart-bg-and-text-content-3 {
   background-image: url(../images/cartbg-3.png);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 .buttonBlack {
@@ -204,6 +202,7 @@
 .instructions-for-use {
   background-image: url(../images/Instructions-for-use.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 .instructions-for-use-wrapper {
@@ -229,8 +228,11 @@
   width: 250px;
 }
 .cardMiniatur-card-mini {
-  height: 320px;
-  background-size: contain;
+  height: 100%;
+}
+.cardMiniatur-card-mini img {
+  height: 100%;
+  object-fit: scale-down;
 }
 .cart-bg-and-text-content-1-1 {
   background-image: url(../images/cartbg-1.1.png);
@@ -271,11 +273,6 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-  }
-  .cart-bg-and-text-content-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 140%;
   }
   .cart-bg-and-text-content-1 {
     background-image: none;
