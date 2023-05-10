@@ -257,12 +257,25 @@ button {
   line-height: 135%;
   color: #ffffff;
   transition: 0.3s;
+  align-items: center;
 }
 .main-grid-link:hover {
-  color: #c7c6c6;
+  color: #c49a6c;
 }
-.main-grid-link img {
-  padding-left: 10px;
+.main-grid-link:hover path {
+  fill: #c49a6c;
+}
+.main-grid-link svg {
+  margin-left: 10px;
+}
+.arrowGray:hover {
+  color: #c49a6c;
+}
+.arrowGray:hover path {
+  fill: #c49a6c;
+}
+.arrowGray svg {
+  margin-left: 10px;
 }
 .main-grid-title-long {
   max-width: 250px;
