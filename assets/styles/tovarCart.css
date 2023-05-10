@@ -125,6 +125,7 @@
   background-position: top;
   background-repeat: no-repeat;
 }
+
 .buttonBlack {
   border: none;
   background: #1c1e1f;
@@ -173,6 +174,8 @@
   font-size: 14px;
   line-height: 140%;
   color: #33383a;
+  align-items: center;
+  display: flex;
 }
 .tovar-cart-imgButton {
   padding-left: 15px;
@@ -259,12 +262,27 @@
     height: 500px;
     background-size: auto;
   }
+  .buttonBlack_wrapper button:nth-child(1) {
+    width: 44%;
+  }
+  .buttonBlack_wrapper button:nth-child(2) {
+    width: 54%;
+  }
   .buttonBlack {
-    width: 45%;
     min-width: 100px;
-    padding: 14px 14px;
-    font-size: 14px;
+    padding: 14px 10px;
+    font-size: 11px;
     line-height: 140%;
+    margin: 0px;
+  }
+  #Характеристики {
+    padding-bottom: 40px;
+  }
+  .tovar-cart-imgButton {
+    padding-top: 0px;
+  }
+  .instructions-for-use {
+    margin-bottom: 60px;
   }
   .cart-bg-and-text-content-wrapper {
     width: 100%;
