@@ -278,8 +278,20 @@ button {
 .main-grid-link svg {
   margin-left: 10px;
 }
+.main-grid-link span {
+  transition: 0.2s;
+}
+.main-grid-link:hover span {
+  padding-right: 5px;
+}
 .arrowGray:hover {
   color: #c49a6c;
+}
+.arrowGray:hover span {
+  padding-right: 5px;
+}
+.arrowGray span {
+  transition: 0.2s;
 }
 .arrowGray:hover path {
   fill: #c49a6c;
@@ -438,6 +450,17 @@ button {
   padding: 10px;
   color: #ffffff;
   border: 1px solid #33383a;
+  transition: 0.3s;
+}
+.mailinglist-input:hover {
+  background: #fbfbfb;
+  color: #33383a;
+  border: 1px solid #808588;
+}
+.mailinglist-input:focus-visible {
+  color: #33383a;
+  background: #fbfbfb;
+  border: 1px solid #d9dee0 !important;
 }
 .mailinglist-button {
   background: #ffffff;
@@ -532,6 +555,9 @@ button {
   padding: 0px;
 }
 @media (max-width: 990px) {
+  .home-main-slide-title {
+    font-size: 30px;
+  }
   .home-main-slider {
     padding-right: 10px;
   }
