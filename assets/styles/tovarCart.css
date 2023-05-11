@@ -130,7 +130,6 @@
   background-position: top;
   background-repeat: no-repeat;
 }
-
 .buttonBlack {
   border: none;
   background: #1c1e1f;
@@ -177,6 +176,7 @@
 .tovar-cart-imgButton {
   padding-left: 15px;
 }
+
 .tovar-cart-imgButton img {
   height: 250px;
   object-fit: cover;
@@ -329,5 +329,14 @@
   }
   .instructions-for-use-button {
     width: 100%;
+  }
+  .wrapperOmzor {
+    padding-top: 20px;
+    height: 300px;
+    margin: 0px;
+    padding-bottom: 60px;
+  }
+  .swiper-slide.cardMiniatur-card {
+    padding: 0px;
   }
 }

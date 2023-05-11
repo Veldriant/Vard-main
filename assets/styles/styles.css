@@ -19,9 +19,7 @@ a {
 .dropdown-toggle {
   width: 200px;
 }
-.rotate:hover {
-  text-shadow: #1c1e1f 0px 0px 1px !important;
-}
+
 .dropdown-toggle::after {
   background-image: url(../images/arrowDown.svg);
   width: 15px;
@@ -36,6 +34,9 @@ a {
 }
 .rotateTogle.dropdown-toggle::after {
   transform: rotate(-180deg);
+}
+#rotate.rotateTogle {
+  color: #c49a6c;
 }
 button {
   transition: 0.3s;
@@ -54,8 +55,10 @@ button {
   background: #c49a6c;
   color: #fff;
 }
-.button_disable:hover {
-  background: #808588;
+.button_gray-hover:hover {
+  background: inherit;
+  color: #1c1e1f;
+  border: 1px solid #1c1e1f;
 }
 .home-main-slider {
   height: 100vh;
@@ -328,6 +331,14 @@ button {
 .prev-cardMiniatur {
   position: relative;
 }
+.next-cardMiniatur::after {
+  content: url(../images/arrow_dark.svg);
+}
+.prev-cardMiniatur::after {
+  content: url(../images/arrow_dark.svg);
+  transform: rotate(-180deg);
+  margin-top: 5px;
+}
 .topPadding {
   padding-top: 120px;
 }
@@ -390,7 +401,7 @@ button {
   height: 60px;
 }
 .cardMiniatur-card-button img {
-  height: 50%;
+  height: 25px !important;
 }
 .cardMiniatur-card-button:nth-child(1) {
   width: 75%;
