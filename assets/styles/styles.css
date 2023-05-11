@@ -522,6 +522,11 @@ button {
 .home-brand-subtext {
   padding-left: 40px;
 }
+footer {
+  padding-top: 70px;
+  background: #fbfbfb;
+  border-top: 1px solid #d9dee0;
+}
 .text-footer-list {
   font-weight: 400;
   font-size: 14px;
@@ -688,6 +693,9 @@ button {
   }
   .site-name-footer {
     color: #80858888;
+  }
+  footer {
+    padding-top: 30px;
   }
 }
 @media (max-width: 450px) {
