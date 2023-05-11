@@ -501,6 +501,8 @@ button {
 .mailinglist-input:focus-visible {
   color: #ffffff;
   border: 1px solid #808588;
+  border-radius: 0px;
+  outline: none;
 }
 .mailinglist-button {
   background: #ffffff;
