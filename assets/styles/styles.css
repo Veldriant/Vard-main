@@ -19,7 +19,9 @@ a {
 .dropdown-toggle {
   width: 200px;
 }
-
+.rotate:hover {
+  text-shadow: #1c1e1f 0px 0px 1px !important;
+}
 .dropdown-toggle::after {
   background-image: url(../images/arrowDown.svg);
   width: 15px;
@@ -29,6 +31,11 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+.rotateTogle.dropdown-toggle::after {
+  transform: rotate(-180deg);
 }
 button {
   transition: 0.3s;
@@ -130,7 +137,16 @@ button {
   content: url(../images/navigarotCart.svg);
   margin-top: -20px;
 }
+.NavigationCart-next:hover::after {
+  content: url(../images/navigarotCart.svg);
+  margin-top: -20px;
+}
 .NavigationCart-prev::after {
+  content: url(../images/navigarotCart.svg);
+  margin-top: 20px;
+  transform: rotate(-180deg);
+}
+.NavigationCart-prev:hover::after {
   content: url(../images/navigarotCart.svg);
   margin-top: 20px;
   transform: rotate(-180deg);
@@ -343,7 +359,7 @@ button {
   line-height: 135%;
 }
 .cardMiniatur-card-content {
-  padding-bottom: 40px;
+  padding-top: 40px;
 }
 .cardMiniatur-card-conent-model {
   font-style: normal;
@@ -361,9 +377,9 @@ button {
   color: #808588;
 }
 .cardMiniatur-card-price {
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 41px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
   letter-spacing: -0.02em;
   color: #c49a6c;
 }
@@ -372,6 +388,9 @@ button {
   background-color: #1c1e1f;
   box-shadow: 2px 6px 15px -2px rgba(29, 32, 34, 0.05);
   height: 60px;
+}
+.cardMiniatur-card-button img {
+  height: 50%;
 }
 .cardMiniatur-card-button:nth-child(1) {
   width: 75%;
@@ -453,14 +472,15 @@ button {
   transition: 0.3s;
 }
 .mailinglist-input:hover {
-  background: #fbfbfb;
-  color: #33383a;
   border: 1px solid #808588;
 }
+.mailinglist-input:active {
+  border: 1px solid #808588;
+}
+
 .mailinglist-input:focus-visible {
-  color: #33383a;
-  background: #fbfbfb;
-  border: 1px solid #d9dee0 !important;
+  color: #ffffff;
+  border: 1px solid #808588;
 }
 .mailinglist-button {
   background: #ffffff;
@@ -637,6 +657,11 @@ footer {
   .cardMiniatur-card-content {
     padding-bottom: 0px;
   }
+  .cardMiniatur-card-price {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
   .home-brand {
     margin-top: 10px;
     height: 160px;
@@ -698,6 +723,12 @@ footer {
     padding-top: 30px;
   }
 }
+@media (max-width: 750px) {
+  .cardMiniatur-card-content {
+    padding-top: 0px;
+  }
+}
+
 @media (max-width: 450px) {
   .cardMiniatur-card-header img {
     height: 280px;

@@ -71,3 +71,19 @@ var swiper = new Swiper(".homeNew", {
   },
   spaceBetween: 30,
 });
+function myFunction() {
+                    var element = document.getElementById("rotate");
+
+                    if (element.classList) {
+                        element.classList.toggle("rotateTogle");
+                    } else {
+                        var classes = element.className.split(" ");
+                        var i = classes.indexOf("rotateTogle");
+
+                        if (i >= 0)
+                            classes.splice(i, 1);
+                        else
+                            classes.push("rotateTogle");
+                        element.className = classes.join(" ");
+                    }
+                }
