@@ -142,14 +142,6 @@
   min-width: 200px;
   margin-right: 10px;
 }
-.buttonBlack:last-child {
-  margin-right: 0px;
-}
-.buttonBlack:active {
-  color: #ffffff;
-  background: #c49a6c;
-  box-shadow: 2px 6px 15px -2px rgba(29, 32, 34, 0.05);
-}
 .tovar-cart-info {
   font-weight: 400;
   font-size: 14px;
@@ -197,10 +189,6 @@
   padding: 18px 30px;
   background: #1c1e1f;
   width: 100%;
-}
-.tovar-cart-button:hover {
-  color: #1c1e1f;
-  background: #d9dee0;
 }
 .instructions-for-use {
   margin-bottom: 120px;

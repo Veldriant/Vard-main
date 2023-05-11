@@ -47,7 +47,9 @@ button {
   background: #c49a6c;
   color: #fff;
 }
-
+.button_disable:hover {
+  background: #808588;
+}
 .home-main-slider {
   height: 100vh;
   background-image: url(../images/HomeOneSlider1.jpg);
