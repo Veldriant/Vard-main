@@ -113,8 +113,16 @@ button {
 .swiper-button-next::after {
   content: url(../images/arrow_next.svg);
 }
+.swiper-button-next:hover::after {
+  content: url(../images/arrowNextHover.svg);
+}
 .swiper-button-prev::after {
   content: url(../images/arrow_prev.svg);
+}
+.swiper-button-prev:hover::after {
+  content: url(../images/arrowNextHover.svg);
+  transform: rotate(180deg);
+  margin-top: 5px;
 }
 .NavigationCart-next::after {
   content: url(../images/navigarotCart.svg);
