@@ -131,37 +131,40 @@ button {
   background: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
-.swiper-button-next::after {
-  content: url(../images/arrow_next.svg);
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
 }
-.swiper-button-next:hover::after {
-  content: url(../images/arrowNextHover.svg);
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+}
+.swiper-button-next:hover path {
+  fill: #c49a6c;
+}
+.swiper-button-next:hover circle {
+  stroke: #c49a6c;
+}
+.swiper-button-prev:hover path {
+  fill: #c49a6c;
+}
+.swiper-button-prev:hover circle {
+  stroke: #c49a6c;
+}
+.swiper-button-next::after {
+  display: none;
 }
 .swiper-button-prev::after {
-  content: url(../images/arrow_prev.svg);
+  display: none;
 }
-.swiper-button-prev:hover::after {
-  content: url(../images/arrowNextHover.svg);
+.swiper-button-prev {
   transform: rotate(180deg);
-  margin-top: 5px;
 }
-.NavigationCart-next::after {
-  content: url(../images/navigarotCart.svg);
-  margin-top: -20px;
+.NavigationCart-prev:hover path {
+  fill: none;
 }
-.NavigationCart-next:hover::after {
-  content: url(../images/navigarotCart.svg);
-  margin-top: -20px;
-}
-.NavigationCart-prev::after {
-  content: url(../images/navigarotCart.svg);
-  margin-top: 20px;
-  transform: rotate(-180deg);
-}
-.NavigationCart-prev:hover::after {
-  content: url(../images/navigarotCart.svg);
-  margin-top: 20px;
-  transform: rotate(-180deg);
+.NavigationCart-next:hover path {
+  fill: none;
 }
 .NavigationCartcontent:after .swiper-button-disabled {
   content: "" !important;
