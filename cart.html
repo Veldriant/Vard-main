@@ -15,11 +15,88 @@
 </head>
 
 <body>
-    <section class="container">
-        <div>
-
+    <section class="container pt-5">
+        <div class="col-lg-9 col-12">
+            <ul>
+                <li class="d-flex flex-column cart__wrapper">
+                    <div class="d-flex w-100 justify-content-between  align-items-center">
+                        <img src="./assets/images/cofee.png" alt="cofee.png">
+                        <div>
+                            <p class="boldText">Philips EP2224/10</p>
+                            <p class="text-gray">Описание товара или категория</p>
+                        </div>
+                        <div>
+                            <ul class="d-flex justify-content-between">
+                                <li class="cart__list">
+                                    <p class="light_gray">Стоимость</p>
+                                    <p class="light_text">39 999 ₽</p>
+                                </li>
+                                <li class="cart__list">
+                                    <p class="light_gray">Количество</p>
+                                    <div class="text-center cart__list-number">
+                                        <span>-</span>
+                                        <span>1</span>
+                                        <span>+</span>
+                                    </div>
+                                </li>
+                                <li class="cart__list">
+                                    <p class="light_gray">Сумма</p>
+                                    <p class="cardMiniatur-card-price">39 999 ₽</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_558_35319)">
+                                    <path
+                                        d="M16.2491 11.31L9.99911 17.5L3.74911 11.31C3.33687 10.9088 3.01215 10.4267 2.7954 9.89387C2.57866 9.36105 2.47458 8.78913 2.48973 8.21412C2.50487 7.6391 2.63891 7.07345 2.88341 6.55279C3.1279 6.03212 3.47756 5.56772 3.91035 5.18882C4.34314 4.80993 4.8497 4.52475 5.39812 4.35124C5.94654 4.17773 6.52495 4.11966 7.09692 4.18067C7.66889 4.24169 8.22203 4.42047 8.72151 4.70576C9.22099 4.99105 9.65598 5.37667 9.99911 5.83834C10.3437 5.38002 10.7792 4.99777 11.2784 4.71551C11.7775 4.43325 12.3295 4.25705 12.8999 4.19794C13.4703 4.13883 14.0467 4.19809 14.5931 4.372C15.1395 4.54591 15.6441 4.83073 16.0754 5.20864C16.5067 5.58655 16.8553 6.04941 17.0995 6.56825C17.3436 7.08709 17.4781 7.65074 17.4944 8.22393C17.5107 8.79712 17.4085 9.3675 17.1942 9.89938C16.98 10.4313 16.6582 10.9132 16.2491 11.315"
+                                        stroke="#33383A" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_558_35319">
+                                        <rect width="20" height="20" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="20" height="20" fill="#FBFBFB" />
+                                <path d="M6 6L14 14M14 6L6 14" stroke="#33383A" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <hr class="w-100 cart__hr">
+                    <a class="dropdown-toggle justify-content-between rotate w-100 align-items-center d-flex"
+                        id="rotate" onclick="myFunction()" data-bs-toggle="collapse" href="#collapseExample"
+                        role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="d-flex align-items-center">
+                            Дополнительные услуги <p class="m-0 px-2 text-gray">1 999 ₽</p><svg width="6" height="6"
+                                viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="3" cy="3" r="3" fill="#C49A6C" />
+                            </svg>
+                        </div>
+                        <span><svg width="7" height="11" viewBox="0 0 7 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 10.5L5.29289 6.20711C5.68342 5.81658 5.68342 5.18342 5.29289 4.79289L1 0.5"
+                                    stroke="#33383A" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></span>
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="d-flex cart__collapse justify-content-between">
+                            <input id="html" type="checkbox">
+                            <div>
+                                <p>Доставка</p>
+                                <p>Описание услуги</p>
+                            </div>
+                            <p>1 999 ₽</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div>
+        <div class="col-lg-3">
 
         </div>
     </section>

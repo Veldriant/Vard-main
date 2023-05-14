@@ -16,14 +16,43 @@ li {
 a {
   text-decoration: none;
 }
+hr {
+  color: #d9dee0;
+}
 .dropdown-toggle {
   width: 200px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #33383a;
+}
+.dropdown-toggle:hover {
+  color: #33383a;
 }
 
+.boldText {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #33383a;
+}
+.light_gray {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #d9dee0;
+}
+.light_text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #808588;
+}
 .dropdown-toggle::after {
   display: none;
 }
-
 .dropdown-toggle span {
   transform: rotate(90deg);
   transition: 0.3s;
