@@ -21,19 +21,19 @@ a {
 }
 
 .dropdown-toggle::after {
-  background-image: url(../images/arrowDown.svg);
-  width: 15px;
-  height: 15px;
-  margin: 0px;
-  border: none;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  transform: rotate(0deg);
+  display: none;
+}
+
+.dropdown-toggle span {
+  transform: rotate(90deg);
   transition: 0.3s;
 }
-.rotateTogle.dropdown-toggle::after {
-  transform: rotate(-180deg);
+.rotateTogle.dropdown-toggle span {
+  transform: rotate(-90deg);
+  transition: 0.3s;
+}
+.rotateTogle.dropdown-toggle path {
+  stroke: #c49a6c;
 }
 #rotate.rotateTogle {
   color: #c49a6c;
