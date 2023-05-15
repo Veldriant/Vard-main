@@ -26,6 +26,13 @@ hr {
   letter-spacing: -0.02em;
   color: #33383a;
 }
+.regular16 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  text-align: center;
+  color: #33383a;
+}
 .bolderText {
   font-weight: 600;
   font-size: 30px;
@@ -669,6 +676,24 @@ footer {
 .main-grid-top-1 {
   padding: 0px;
 }
+.bgfour-hundred-four {
+  background-image: url(../images/404.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.button__four-hundred-four {
+  width: 560px;
+}
+.regular16__four-hundred-four {
+  max-width: 390px;
+}
 @media (max-width: 990px) {
   .home-main-slide-title {
     font-size: 30px;
@@ -812,6 +837,9 @@ footer {
   }
   footer {
     padding-top: 30px;
+  }
+  .button__four-hundred-four {
+    width: 300px;
   }
 }
 @media (max-width: 750px) {
