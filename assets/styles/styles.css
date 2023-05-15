@@ -19,6 +19,40 @@ a {
 hr {
   color: #d9dee0;
 }
+.boldText {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #33383a;
+}
+.bolderText {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+}
+.bigText {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #33383a;
+}
+.light_gray {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #d9dee0;
+}
+.light_text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #808588;
+}
 .dropdown-toggle {
   width: 200px;
   font-weight: 400;
@@ -35,26 +69,6 @@ hr {
 .modal-dialog {
   width: 50%;
   max-width: 100%;
-}
-.boldText {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: -0.02em;
-  color: #33383a;
-}
-.light_gray {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 140%;
-  color: #d9dee0;
-}
-.light_text {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: -0.02em;
-  color: #808588;
 }
 .dropdown-toggle::after {
   display: none;
