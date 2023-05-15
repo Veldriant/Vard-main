@@ -1,6 +1,9 @@
 var swiper = new Swiper(".swiperHome-main", {
   slidesPerView: 1,
   loop: true,
+  autoplay: {
+        delay: 2500,
+      },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",

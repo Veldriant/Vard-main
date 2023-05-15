@@ -189,6 +189,9 @@ button {
 .swiper-button-prev {
   transform: rotate(180deg);
 }
+.swiper-button-prev.swiper-button-home-main {
+  transform: rotate(0deg);
+}
 .NavigationCart-prev:hover path {
   fill: none;
 }
@@ -211,6 +214,15 @@ button {
   padding: 20px;
 }
 
+.main-grid-top li {
+  background-size: 110%;
+  -webkit-transition: background-size 0.3s ease-in;
+  transition: background-size 0.3s ease-in;
+}
+
+.main-grid-top li:hover {
+  background-size: 130%;
+}
 .main-grid-top-1 {
   grid-area: 1 / 1 / 2 / 3;
   display: flex;
