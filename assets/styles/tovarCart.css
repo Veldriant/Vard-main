@@ -121,8 +121,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-top: 1px solid rgba(217, 222, 224, 0.25);
-  border-bottom: 1px solid rgba(217, 222, 224, 0.25);
+  border-top: 1px solid rgb(217 222 224 / 12%);
+  border-bottom: 1px solid rgb(217 222 224 / 12%);
 }
 .cart-bg-and-text-content-3 {
   background-image: url(../images/cartbg-3.png);
