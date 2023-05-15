@@ -29,7 +29,13 @@ hr {
 .dropdown-toggle:hover {
   color: #33383a;
 }
-
+.modal {
+  top: 10%;
+}
+.modal-dialog {
+  width: 50%;
+  max-width: 100%;
+}
 .boldText {
   font-weight: 700;
   font-size: 18px;
@@ -221,7 +227,7 @@ button {
 }
 
 .main-grid-top li:hover {
-  background-size: 130%;
+  background-size: 120%;
 }
 .main-grid-top-1 {
   grid-area: 1 / 1 / 2 / 3;
@@ -409,6 +415,10 @@ button {
 .cardMiniatur-card-header img {
   height: 380px;
   object-fit: scale-down;
+  transition: 0.3s;
+}
+.cardMiniatur-card-header img:hover {
+  transform: scale(1.1);
 }
 .cardMiniatur-card-header-teg {
   padding: 5px 10px;
@@ -421,6 +431,7 @@ button {
   font-weight: 400;
   font-size: 12px;
   line-height: 135%;
+  z-index: 2;
 }
 .cardMiniatur-card-content {
   padding-top: 40px;
@@ -753,6 +764,7 @@ footer {
   }
   .home-help {
     background-position: right;
+    background-position-x: -560px;
     align-items: center;
     padding-left: 0px;
     display: flex;
