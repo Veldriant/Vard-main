@@ -694,6 +694,9 @@ footer {
 .regular16__four-hundred-four {
   max-width: 390px;
 }
+.link__return:hover {
+  color: #bc905f;
+}
 @media (max-width: 990px) {
   .home-main-slide-title {
     font-size: 30px;
