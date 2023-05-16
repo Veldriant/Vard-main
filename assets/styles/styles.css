@@ -16,6 +16,9 @@ li {
 a {
   text-decoration: none;
 }
+p {
+  margin: 0px;
+}
 hr {
   color: #d9dee0;
 }
@@ -445,7 +448,7 @@ button {
   padding-bottom: 20px;
 }
 .cardMiniatur-card-header img {
-  height: 380px;
+  height: 300px;
   object-fit: scale-down;
   transition: 0.3s;
 }
@@ -521,7 +524,7 @@ button {
   height: 500px;
   background-size: auto;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
 }
 .homeNew-slide-1 {
   background-image: url(../images/new1.png);
@@ -692,12 +695,13 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 30px;
 }
 .button__four-hundred-four {
   width: 560px;
@@ -747,6 +751,27 @@ footer {
   background: #1c1e1f;
   border: none;
   width: 25%;
+}
+.cardMiniatur-card-four.cardMiniatur-card-mini img {
+  object-fit: scale-down;
+  height: 380px;
+}
+.return__crumbs {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+.return__padding {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.return__pading-text {
+  padding-top: 10px;
+}
+.return__padding-top {
+  padding-top: 20px;
+}
+.marginBottom {
+  margin-bottom: 120px;
 }
 @media (max-width: 990px) {
   .home-main-slide-title {
@@ -904,6 +929,9 @@ footer {
   }
   .button__news {
     width: 50%;
+  }
+  .marginBottom {
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 750px) {

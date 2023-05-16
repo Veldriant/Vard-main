@@ -226,10 +226,10 @@
 .cardMiniatur-card-mini {
   height: 100%;
 }
-.cardMiniatur-card-mini img {
-  height: 100%;
+/* .cardMiniatur-card-mini img {
+  height: 380px;
   object-fit: scale-down;
-}
+} */
 .cart-bg-and-text-content-1-1 {
   background-image: url(../images/cartbg-1.1.png);
   background-size: contain;
@@ -295,7 +295,7 @@
   }
   .swiper-slide.cardMiniatur-card img {
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .cardMiniatur-card-mini {
