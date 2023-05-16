@@ -697,6 +697,22 @@ footer {
 .link__return:hover {
   color: #bc905f;
 }
+.grid__news {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+.grid__news-wrapper {
+  height: 400px;
+  background-image: url(../images/new1.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.grid__news-info {
+  position: relative;
+  top: 75%;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
 @media (max-width: 990px) {
   .home-main-slide-title {
     font-size: 30px;
@@ -844,10 +860,21 @@ footer {
   .button__four-hundred-four {
     width: 300px;
   }
+  .grid__news {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .grid__news-info {
+    top: 67%;
+  }
 }
 @media (max-width: 750px) {
   .cardMiniatur-card-content {
     padding-top: 0px;
+  }
+  .grid__news {
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
 }
 
