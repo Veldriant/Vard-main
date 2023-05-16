@@ -738,6 +738,16 @@ footer {
   color: #808588;
   padding-left: 10px;
 }
+.button__news {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #ffffff;
+  padding: 18px 30px;
+  background: #1c1e1f;
+  border: none;
+  width: 25%;
+}
 @media (max-width: 990px) {
   .home-main-slide-title {
     font-size: 30px;
@@ -892,6 +902,9 @@ footer {
   .grid__news-info {
     top: 67%;
   }
+  .button__news {
+    width: 50%;
+  }
 }
 @media (max-width: 750px) {
   .cardMiniatur-card-content {
@@ -907,5 +920,8 @@ footer {
   .cardMiniatur-card-header img {
     height: 280px;
     object-fit: scale-down;
+  }
+  .button__news {
+    width: 70%;
   }
 }
