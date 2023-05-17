@@ -254,7 +254,9 @@ button {
 .main-grid-top li {
   padding: 20px;
 }
-
+.padding__top30 {
+  padding-top: 30px;
+}
 .main-grid-top li {
   background-size: 110%;
   -webkit-transition: background-size 0.3s ease-in;
@@ -448,8 +450,8 @@ button {
   padding-bottom: 20px;
 }
 .cardMiniatur-card-header img {
-  height: 300px;
-  object-fit: scale-down;
+  height: 500px;
+  object-fit: none;
   transition: 0.3s;
 }
 .cardMiniatur-card-header img:hover {
@@ -869,10 +871,6 @@ footer {
   .cardMiniatur-card-header-teg {
     left: 20px;
   }
-  .cardMiniatur-card-header img {
-    height: 500px;
-    object-fit: scale-down;
-  }
   .homeNew-info {
     position: absolute;
     top: 75%;
@@ -945,10 +943,6 @@ footer {
 }
 
 @media (max-width: 450px) {
-  .cardMiniatur-card-header img {
-    height: 280px;
-    object-fit: scale-down;
-  }
   .button__news {
     width: 70%;
   }
