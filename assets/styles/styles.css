@@ -35,6 +35,11 @@ hr {
   line-height: 135%;
   color: #33383a;
 }
+.regular14 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
 .regular16__gray {
   font-weight: 400;
   font-size: 16px;
@@ -1061,6 +1066,39 @@ footer {
 }
 .cart__contact-item {
   border-bottom: 1px solid #d9dee071;
+}
+.accordion-button:focus {
+  border-color: inherit !important;
+  box-shadow: none !important;
+  color: #1c1e1f !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 135% !important;
+}
+.accordion-button:not(.collapsed) {
+  color: #1c1e1f !important;
+  background-color: none !important;
+  box-shadow: inherit !important;
+  background-color: inherit !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/garantii.svg);
+  transform: rotate(90deg);
+  height: 15px;
+  width: 15px;
+  background-size: contain;
+}
+.accordion-button:after {
+  background-image: url(../images/garantii.svg);
+  transform: rotate(0deg);
+  transition: 0.3s;
+  height: 15px;
+  width: 15px;
+  background-size: contain;
+}
+.accordion-item-guarantees {
+  border: none;
+  border-bottom: 1px solid #d9dee04f;
 }
 @media (max-width: 990px) {
   .home-main-slide-title {
