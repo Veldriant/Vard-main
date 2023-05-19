@@ -1083,7 +1083,7 @@ footer {
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url(../images/garantii.svg);
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   height: 15px;
   width: 15px;
   background-size: contain;
