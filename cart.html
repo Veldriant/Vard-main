@@ -20,7 +20,11 @@
             <ul>
                 <li class="d-flex flex-column cart__wrapper">
                     <div class="d-flex w-100 justify-content-between  align-items-center">
-                        <img src="./assets/images/cofee.png" alt="cofee.png">
+                        <div class="d-flex">
+                            <input id="highload0" class="checkbox-custom d-none" name="highload0" type="checkbox">
+                            <label for="highload0" class="checkbox-custom-label d-flex align-items-center m-0"></label>
+                            <img src="./assets/images/cofee.png" alt="cofee.png">
+                        </div>
                         <div>
                             <p class="boldText">Philips EP2224/10</p>
                             <p class="text-gray">Описание товара или категория</p>
@@ -85,12 +89,15 @@
                     </a>
                     <div class="collapse" id="collapseExample">
                         <div class="d-flex cart__collapse justify-content-between">
-                            <input id="html" type="checkbox">
-                            <div>
-                                <p>Доставка</p>
-                                <p>Описание услуги</p>
+                            <div class="d-flex flex-column">
+                                <input id="highload0" class="checkbox-custom d-none" name="highload0" type="checkbox">
+                                <label for="highload0"
+                                    class="checkbox-custom-label d-flex align-items-center">Доставка</label>
+                                <p class=" subttle-cart regular12__gray">Описание услуги</p>
                             </div>
-                            <p>1 999 ₽</p>
+                            <div>
+                            </div>
+                            <p class="regular16__gray">1 999 ₽</p>
                         </div>
                     </div>
                 </li>
