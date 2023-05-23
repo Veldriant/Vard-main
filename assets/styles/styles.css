@@ -905,6 +905,10 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
 }
+.cart-bg-and-text-content-12 {
+  background: black;
+}
+
 .cart-bg-and-text-content-2 {
   background-image: url(../images/cartbg-2.png);
   background-size: cover;
@@ -1026,6 +1030,9 @@ footer {
   background-position: center;
   height: 330px;
 }
+.cart-bg-and-text-content-12-1 {
+  background: black;
+}
 .cart-bg-and-text-content-1-2 {
   background-image: url(../images/cartbg-1.2.png);
   background-size: contain;
@@ -1146,6 +1153,18 @@ footer {
 }
 .subttle-cart {
   padding-left: 30px;
+}
+.o-brende {
+  height: 50vh;
+  background-image: url(../images/o-brand.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.o-brende .bigWhite {
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
 @media (max-width: 990px) {
   .home-main-slide-title {
