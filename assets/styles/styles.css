@@ -1166,6 +1166,9 @@ footer {
   height: 100%;
   align-items: center;
 }
+.reviews{
+  height: 300px;
+}
 @media (max-width: 990px) {
   .home-main-slide-title {
     font-size: 30px;
